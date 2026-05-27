@@ -1,0 +1,86 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is a task environment? How it is specified? (Remembering)",
+        "marks": 2,
+        "answer": "A task environment refers to the context-sensitive information that affects recommendation goals. It is specified by considering different types of domains, such as temporal data, spatial data, and social data, which provide various types of contexts."
+    },
+    {
+        "id": "Q2",
+        "question": "What is a rational agent? Define an Omniscient agent. (Remembering)",
+        "marks": 2,
+        "answer": "A rational agent makes decisions based on expected outcomes, considering all possible actions and their consequences.\n\nAn Omniscient agent has complete knowledge of the environment, allowing it to make perfect decisions with certainty."
+    },
+    {
+        "id": "Q3",
+        "question": "Differentiate between Natural Intelligence and Artificial Intelligence. (Understanding)",
+        "marks": 2,
+        "answer": "Natural Intelligence refers to human intelligence, which is innate and develops through learning, experience, and social interactions. Artificial Intelligence, on the other hand, is a human-created intelligence that mimics human thought processes using algorithms, data, and computational power. While Natural Intelligence is unique to humans, Artificial Intelligence can be replicated in machines."
+    },
+    {
+        "id": "Q4",
+        "question": "What are the capabilities, computer should possess to pass Turing test and Total Turing test? (Understanding)",
+        "marks": 2,
+        "answer": "To pass the Turing test, a computer should possess human-like conversation abilities, including understanding natural language, generating coherent responses, and exhibiting common sense. To pass the Total Turing Test, it should also be able to convince a human that they are interacting with another human, not a machine."
+    },
+    {
+        "id": "Q5",
+        "question": "What is the role of agent program? (Remembering)",
+        "marks": 2,
+        "answer": "The role of an agent program is to provide a framework for developing intelligent systems that interact with users and make recommendations based on user preferences."
+    },
+    {
+        "id": "Q6",
+        "question": "Give the general model of learning agent. (Understanding)",
+        "marks": 2,
+        "answer": "A learning agent can be represented by a model that consists of three components: perception, reasoning, and action. The perception component senses the environment, the reasoning component processes the sensory input to make decisions or take actions, and the action component executes the chosen action in the environment."
+    },
+    {
+        "id": "Q7",
+        "question": "Briefly explain the four components to define a problem. (Understanding)",
+        "marks": 2,
+        "answer": "The four components to define a problem are: \n\n1. Problem context \n2. Relevant notations and assumptions\n3. Desired outcomes or goals\n4. Evaluation metrics or criteria"
+    },
+    {
+        "id": "Q8",
+        "question": "Why the problem formulation must always follow goal formulation? (Understanding)",
+        "marks": 2,
+        "answer": "To ensure that the solution is relevant and effective in achieving the desired outcome, the problem formulation must align with the goal formulation. This alignment enables the creation of a clear and focused problem statement that guides the subsequent analysis and decision-making process."
+    },
+    {
+        "id": "Q9",
+        "question": "Differentiate Blind Search and Heuristic Search. (Understanding)",
+        "marks": 2,
+        "answer": "Blind search is an algorithm that searches exhaustively through all possible solutions without any guidance or bias, whereas heuristic search employs rules of thumb to guide the search towards a more promising region. This distinction highlights the trade-off between thoroughness and efficiency in problem-solving approaches."
+    },
+    {
+        "id": "Q10",
+        "question": "Interpret the performance of problem-solving method based on breadth-first search algorithm? (Understanding) PART B – (2 × 15 = 30 Marks)",
+        "marks": 2,
+        "answer": "Breadth-First Search (BFS) is a graph traversal algorithm that evaluates the performance of a problem-solving method by exploring all nodes at the current level before moving to the next level. This approach ensures thorough exploration, making it suitable for problems with complex connections between nodes. BFS's time complexity is O(E+V), where E is the number of edges and V is the number of vertices, demonstrating its efficiency in large-scale graph traversal applications."
+    },
+    {
+        "id": "Q11a",
+        "question": "(i) Explain the types of agents with their functions and architecture. (Understanding) 12 a.(ii) For each of the following agents, develop a PEAS description of the task environment: a. Robot soccer player; b. Internet book-shopping agent; c. Autonomous Mars rover; 3 OR",
+        "marks": 15,
+        "answer": "**Types of Agents with Their Functions and Architecture**\n\n### I. Introduction\n\nThe concept of artificial intelligence (AI) has led to the development of various types of agents, each with distinct functions and architectures.\n\n### A. Types of Agents\n\n1. **Autonomous Agents**: These agents operate independently, making decisions without human intervention.\n\t* Function: Perform tasks autonomously\n\t* Architecture: Self-contained systems with sensors, actuators, and decision-making components\n2. **Intelligent Agents**: These agents exhibit intelligent behavior, such as learning and problem-solving.\n\t* Function: Solve problems, learn from experience, and adapt to new situations\n\t* Architecture: Complex systems incorporating AI techniques like machine learning and knowledge representation\n3. **Interface Agents**: These agents interact with humans or other machines to facilitate communication.\n\t* Function: Facilitate interaction between humans and machines or other agents\n\t* Architecture: Systems that integrate human-computer interaction principles with AI techniques\n\n### B. Functions of Agents\n\n1. **Perception**: Gather information about the environment through sensors, cameras, or other means\n2. **Action**: Perform tasks based on perceived data, using actuators, motors, or other output devices\n3. **Reasoning**: Process and analyze data to make decisions or take actions\n4. **Learning**: Update knowledge or behavior based on experience, feedback, or reinforcement\n\n### C. Architecture of Agents\n\n1. **Perceptual Module**: Processes sensory information from the environment\n2. **Reasoning Module**: Analyzes data and makes decisions or takes actions\n3. **Action Module**: Executes tasks and interacts with the environment\n4. **Learning Module**: Updates knowledge or behavior based on experience\n\n**PEAS Descriptions of Task Environments**\n\n### a. Robot Soccer Player\n\n* **Performance Measure**: Score goals, avoid opponents' attacks, and maintain ball possession\n* **Environment**: A soccer field with rules, opponents, and a ball\n* **Actuators**: Robot's wheels, arms, or other effectors to control movement and interaction\n* **Sensors**: Cameras, lidars, or other sensors to perceive the environment and opponents\n\n### b. Internet Book-Shopping Agent\n\n* **Performance Measure**: Find and purchase books within budget constraints\n* **Environment**: Online marketplaces, bookstores, and user preferences\n* **Actuators**: User interface elements (e.g., buttons, menus) to interact with websites or databases\n* **Sensors**: Web pages, search results, and user input to gather information\n\n### c. Autonomous Mars Rover\n\n* **Performance Measure**: Explore the Martian surface, collect data, and maintain communication\n* **Environment**: Martian terrain, rocks, soil, and weather conditions\n* **Actuators**: Wheels, thrusters, or other effectors to move and interact with the environment\n* **Sensors**: Cameras, spectrometers, or other sensors to perceive the Martian surface and collect data"
+    },
+    {
+        "id": "Q11b",
+        "question": "Design the intelligent problem solving agents with the agent function for the following problems. (Understanding) A. Crypt arithmetic Problem B. Airline travel problem 15",
+        "marks": 15,
+        "answer": "**Intelligent Problem Solving Agents**\n\n**Problem A: Crypt Arithmetic Problem**\n\n* **Neighborhood-Based Approach**\n\t+ Initialize a neighborhood matrix using the given crypt arithmetic operations.\n\t+ Use linear regression to identify patterns and relationships between the operations.\n\t+ Factorize the matrix to extract relevant features and reduce dimensionality.\n* **Matrix Factorization**\n\t+ Apply matrix factorization techniques (e.g., Singular Value Decomposition) to the neighborhood matrix.\n\t+ Extract meaningful factors that represent the underlying structure of the crypt arithmetic problem.\n\t+ Use these factors to generate predictions for unknown operations.\n\n**Problem B: Airline Travel Problem**\n\n* **Network-Centric Approach**\n\t+ Represent the airline travel network as a graph, with nodes representing airports and edges representing flights.\n\t+ Calculate trust values between airports based on historical flight data and passenger behavior.\n\t+ Use association-based algorithms (e.g., collaborative filtering) to identify patterns and relationships between airports.\n* **Content-Based Methods**\n\t+ Extract relevant features from the airline travel data, such as flight schedules, routes, and availability.\n\t+ Represent these features using a content-based matrix factorization approach.\n\t+ Use this representation to generate personalized recommendations for travelers.\n\n**Conclusion**\n\nThe proposed intelligent problem solving agents utilize a combination of neighborhood-based approaches, matrix factorization, and network-centric methods to solve the given problems. The agents demonstrate adaptability and effectiveness in handling complex problems, such as crypt arithmetic and airline travel planning."
+    },
+    {
+        "id": "Q12a",
+        "question": "(i) Explain Breadth-first uninformed search strategy with an example. (Understanding) 6 a(ii) Consider a modified version of the vacuum environment, in which the geography of the environment – its extent, boundaries and obstacles – is unknown, as is the initial dirt configuration. (The agent can go Up and Down as well as Left and Right). a. Can a simple reflex agent be perfectly rational for this environment? Explain. b. Can simple reflex agent with a randomized agent function outperform a simple reflex agent? Design such an agent and measure its performance on several environments. c. Can you design an environment in which your randomized agent will perform very poorly? Show your results. d. Can a reflex agent with state outperform a simple reflex agent? Design such an agent and measure its performance on several environments. Can you design a rational agent of this type? 9 OR",
+        "marks": 15,
+        "answer": "**Breadth-First Uninformed Search Strategy**\n\n**Introduction**\nThe breadth-first uninformed search strategy is a type of algorithm used to find the shortest path to a goal in an unweighted graph. This strategy explores all nodes at the present depth prior to moving on to nodes at the next depth level.\n\n**Example**\nConsider a simple grid-based environment where we want to find the shortest path from the starting point (S) to the goal point (G).\n\n          S -> 1 -> 2 -> G\n         /    \\   /    \\\n        3      4 5      6\n\nThe breadth-first search algorithm would work as follows:\n\n1. Start at the beginning node (S).\n2. Explore all nodes at the current depth level (i.e., nodes 1 and 2).\n3. Move on to the next depth level and explore all nodes at that level (i.e., nodes 3, 4, 5, and 6).\n4. Continue this process until the goal node (G) is reached.\n\nIn this example, the breadth-first search algorithm would find the shortest path from S to G by exploring the nodes in the order: S -> 1 -> 2 -> G."
+    },
+    {
+        "id": "Q12b",
+        "question": "(i) Explain Depth-first uninformed search strategy with an example. (Understanding) 6 b(ii) The missionaries and cannibals problem is usually stated as follows. Three missionaries and three cannibals are on one side of a river, along with a boat that can hold one or two people. Find a way to get everyone to the other side without ever leaving a group of missionaries in one place outnumbered by the cannibals in that place. A. Formulate the problem precisely, making only those distinctions necessary to ensure a valid solution. Draw a diagram of the complete state space. B. Implement and solve the problem optimally using an appropriate search algorithm. Is it a good idea to check for repeated states? C. Why do you think people have a hard time solving this puzzle, given that the state space is so simple? 9",
+        "marks": 15,
+        "answer": "**Depth-First Uninformed Search Strategy**\n\n### Understanding\n\nThe Depth-First Uninformed Search strategy is a type of graph search algorithm that explores the graph by traversing as far as possible along each branch before backtracking. This approach does not use any heuristic function to guide the search, hence it is called uninformed.\n\n**Example**\n\nSuppose we have a simple graph with three nodes A, B, and C. The goal is to find a path from node A to node C. Using Depth-First Uninformed Search, we start at node A and explore as far as possible along each branch before backtracking. The search tree would look like this:\n\nA -> B -> C\n|    |\nD     E\n\nWe first visit node B, then node D, then node E, and finally node C.\n\n### Problem Formulation: Missionaries and Cannibals\n\n**Precise Formulation**\n\nThe problem can be formulated as follows:\n\n* We have three missionaries and three cannibals on one side of a river.\n* There is a boat that can hold one or two people.\n* The goal is to get everyone to the other side without ever leaving a group of missionaries in one place outnumbered by the cannibals in that place.\n\n**Diagram of the Complete State Space**\n\nThe state space diagram would consist of nodes representing different configurations of people on each bank, with edges representing possible actions (i.e., moving people from one side to the other using the boat).\n\n### Solution Using Search Algorithm\n\nTo solve this problem optimally, we can use a search algorithm such as Breadth-First Search or Depth-First Search. The optimal solution would be to find the shortest path that satisfies the constraints.\n\n**Repeating States**\n\nIt is not necessary to check for repeated states in this problem because the state space is relatively small and there are no loops in the graph. However, if we were to use a more efficient search algorithm, such as A* search with a heuristic function, we might need to check for repeated states to avoid exploring the same nodes multiple times.\n\n### Why People Have Trouble Solving this Puzzle\n\nThe state space of this problem is actually quite simple, but people may have trouble solving it because it requires careful consideration of the constraints and the possibilities of different actions. The puzzle also relies heavily on logical reasoning and planning ahead, which can be challenging for some individuals."
+    }
+]

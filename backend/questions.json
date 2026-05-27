@@ -1,0 +1,100 @@
+[
+    {
+        "id": "Q1",
+        "question_number": 1,
+        "sub_question": null,
+        "text": "What is a task environment? How it is specified? (Remembering)",
+        "marks": 2
+    },
+    {
+        "id": "Q2",
+        "question_number": 2,
+        "sub_question": null,
+        "text": "What is a rational agent? Define an Omniscient agent. (Remembering)",
+        "marks": 2
+    },
+    {
+        "id": "Q3",
+        "question_number": 3,
+        "sub_question": null,
+        "text": "Differentiate between Natural Intelligence and Artificial Intelligence. (Understanding)",
+        "marks": 2
+    },
+    {
+        "id": "Q4",
+        "question_number": 4,
+        "sub_question": null,
+        "text": "What are the capabilities, computer should possess to pass Turing test and Total Turing test? (Understanding)",
+        "marks": 2
+    },
+    {
+        "id": "Q5",
+        "question_number": 5,
+        "sub_question": null,
+        "text": "What is the role of agent program? (Remembering)",
+        "marks": 2
+    },
+    {
+        "id": "Q6",
+        "question_number": 6,
+        "sub_question": null,
+        "text": "Give the general model of learning agent. (Understanding)",
+        "marks": 2
+    },
+    {
+        "id": "Q7",
+        "question_number": 7,
+        "sub_question": null,
+        "text": "Briefly explain the four components to define a problem. (Understanding)",
+        "marks": 2
+    },
+    {
+        "id": "Q8",
+        "question_number": 8,
+        "sub_question": null,
+        "text": "Why the problem formulation must always follow goal formulation? (Understanding)",
+        "marks": 2
+    },
+    {
+        "id": "Q9",
+        "question_number": 9,
+        "sub_question": null,
+        "text": "Differentiate Blind Search and Heuristic Search. (Understanding)",
+        "marks": 2
+    },
+    {
+        "id": "Q10",
+        "question_number": 10,
+        "sub_question": null,
+        "text": "Interpret the performance of problem-solving method based on breadth-first search algorithm? (Understanding) PART B – (2 × 15 = 30 Marks)",
+        "marks": 2
+    },
+    {
+        "id": "Q11a",
+        "question_number": 11,
+        "sub_question": "a",
+        "text": "(i) Explain the types of agents with their functions and architecture. (Understanding) 12 a.(ii) For each of the following agents, develop a PEAS description of the task environment: a. Robot soccer player; b. Internet book-shopping agent; c. Autonomous Mars rover; 3 OR",
+        "marks": 15
+    },
+    {
+        "id": "Q11b",
+        "question_number": 11,
+        "sub_question": "b",
+        "text": "Design the intelligent problem solving agents with the agent function for the following problems. (Understanding) A. Crypt arithmetic Problem B. Airline travel problem 15",
+        "marks": 15
+    },
+    {
+        "id": "Q12a",
+        "question_number": 12,
+        "sub_question": "a",
+        "text": "(i) Explain Breadth-first uninformed search strategy with an example. (Understanding) 6 a(ii) Consider a modified version of the vacuum environment, in which the geography of the environment – its extent, boundaries and obstacles – is unknown, as is the initial dirt configuration. (The agent can go Up and Down as well as Left and Right). a. Can a simple reflex agent be perfectly rational for this environment? Explain. b. Can simple reflex agent with a randomized agent function outperform a simple reflex agent? Design such an agent and measure its performance on several environments. c. Can you design an environment in which your randomized agent will perform very poorly? Show your results. d. Can a reflex agent with state outperform a simple reflex agent? Design such an agent and measure its performance on several environments. Can you design a rational agent of this type? 9 OR",
+        "marks": 15
+    },
+    {
+        "id": "Q12b",
+        "question_number": 12,
+        "sub_question": "b",
+        "text": "(i) Explain Depth-first uninformed search strategy with an example. (Understanding) 6 b(ii) The missionaries and cannibals problem is usually stated as follows. Three missionaries and three cannibals are on one side of a river, along with a boat that can hold one or two people. Find a way to get everyone to the other side without ever leaving a group of missionaries in one place outnumbered by the cannibals in that place. A. Formulate the problem precisely, making only those distinctions necessary to ensure a valid solution. Draw a diagram of the complete state space. B. Implement and solve the problem optimally using an appropriate search algorithm. Is it a good idea to check for repeated states? C. Why do you think people have a hard time solving this puzzle, given that the state space is so simple? 9",
+        "marks": 15
+    }
+]
